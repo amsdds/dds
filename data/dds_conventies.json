@@ -37,7 +37,7 @@
     {
       "iri": "Lift",
       "objectIdRequired": "Ja",
-      "aasRegex": "^L\\d{3}$",
+      "aasRegex": "^L\\d{1,4}$",
       "aasOpbouw": "L[nummer]",
       "aasVoorbeeld": "L046",
       "omschrijvingTemplate": "^Liftinstallatie, [[aascode]], .*$",
@@ -48,7 +48,7 @@
     {
       "iri": "Roltrap",
       "objectIdRequired": "Ja",
-      "aasRegex": "^RT\\d{3}$",
+      "aasRegex": "^RT\\d{1,4}$",
       "aasOpbouw": "RT[nummer]",
       "aasVoorbeeld": "RT095",
       "omschrijvingTemplate": "^Roltrap, [[aascode]], .*$",
@@ -59,7 +59,7 @@
     {
       "iri": "Rolpad",
       "objectIdRequired": "Ja",
-      "aasRegex": "^RP\\d{3}$",
+      "aasRegex": "^RP\\d{1,4}$",
       "aasOpbouw": "RP[nummer]",
       "aasVoorbeeld": "RP003",
       "omschrijvingTemplate": "^Rolpad, [[aascode]], .*$",
@@ -70,7 +70,7 @@
     {
       "iri": "Hellingbaan",
       "objectIdRequired": "Ja",
-      "aasRegex": "^HB\\d{3}$",
+      "aasRegex": "^HB\\d{1,4}$",
       "aasOpbouw": "HB[nummer]",
       "aasVoorbeeld": "HB010",
       "omschrijvingTemplate": "^Hellingbaan, [[aascode]], .*$",
@@ -92,7 +92,7 @@
     {
       "iri": "Glasplaat",
       "objectIdRequired": "Ja",
-      "aasRegex": "^RT\\d{3}$",
+      "aasRegex": "^RT\\d{1,4}$",
       "aasOpbouw": "RT[nummer van roltrap waar het glas zich in bevindt]",
       "aasVoorbeeld": "RT004",
       "omschrijvingTemplate": "^Glasplaat, [[aascode]], .*$",
