@@ -242,6 +242,160 @@
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Sprinklerkop, 1.05.01.00.XVC, T1-01-R1272",
       "row": 23
+    },
+    {
+      "iri": "Brandmeldinstallatie",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^B\\d{1,4}$",
+      "aasOpbouw": "B[Brandmeldcentralennr]",
+      "aasVoorbeeld": "B1063",
+      "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
+      "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "Brandmeldinstallatie, B1063, T2-01-R2011",
+      "row": 24
+    },
+    {
+      "iri": "AspiratiemelderASD",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^B\\d{1,4}$",
+      "aasOpbouw": "B[Brandmeldcentralennr]",
+      "aasVoorbeeld": "B1063",
+      "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
+      "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "AspiratiemelderASD, B1063, T2-01-R2011",
+      "row": 25
+    },
+    {
+      "iri": "VideoSmokeDetectie",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^B\\d{1,4}$",
+      "aasOpbouw": "B[Brandmeldcentralennr]",
+      "aasVoorbeeld": "B1063",
+      "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
+      "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "VideoSmokeDetectie, B1063, T2-01-R2011",
+      "row": 26
+    },
+    {
+      "iri": "LineaireOptischeDetectie",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^B\\d{1,4}$",
+      "aasOpbouw": "B[Brandmeldcentralennr]",
+      "aasVoorbeeld": "B1063",
+      "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
+      "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "LineaireOptischeDetectie, B1063, T2-01-R2011",
+      "row": 27
+    },
+    {
+      "iri": "LineaireThermischeDetectie",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^B\\d{1,4}$",
+      "aasOpbouw": "B[Brandmeldcentralennr]",
+      "aasVoorbeeld": "B1063",
+      "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
+      "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "LineaireThermischeDetectie, B1063, T2-01-R2011",
+      "row": 28
+    },
+    {
+      "iri": "Vlammenmelder",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^B\\d{1,4}$",
+      "aasOpbouw": "B[Brandmeldcentralennr]",
+      "aasVoorbeeld": "B1063",
+      "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
+      "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "Vlammenmelder, B1063, T2-01-R2011",
+      "row": 29
+    },
+    {
+      "iri": "Handbrandmelder",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^B\\d{1,4}$",
+      "aasOpbouw": "B[Brandmeldcentralennr]",
+      "aasVoorbeeld": "B1063",
+      "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
+      "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "Handbrandmelder, B1063, T2-01-R2011",
+      "row": 30
+    },
+    {
+      "iri": "AkoestischeEnOptischeSignaalgevers",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^B\\d{1,4}$",
+      "aasOpbouw": "B[Brandmeldcentralennr]",
+      "aasVoorbeeld": "B1063",
+      "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
+      "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "AkoestischeEnOptischeSignaalgevers, B1063, T2-01-R2011",
+      "row": 31
+    },
+    {
+      "iri": "ThermischeMelder",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^B\\d{1,4}$",
+      "aasOpbouw": "B[Brandmeldcentralennr]",
+      "aasVoorbeeld": "B1063",
+      "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
+      "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "ThermischeMelder, B1063, T2-01-R2011",
+      "row": 32
+    },
+    {
+      "iri": "MultisensorPuntmelder",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^B\\d{1,4}$",
+      "aasOpbouw": "B[Brandmeldcentralennr]",
+      "aasVoorbeeld": "B1063",
+      "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
+      "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "MultisensorPuntmelder, B1063, T2-01-R2011",
+      "row": 33
+    },
+    {
+      "iri": "IOModule",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^B\\d{1,4}$",
+      "aasOpbouw": "B[Brandmeldcentralennr]",
+      "aasVoorbeeld": "B1063",
+      "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
+      "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "IOModule, B1063, T2-01-R2011",
+      "row": 34
+    },
+    {
+      "iri": "ExterneEnergievoorziening-BrandmeldinstallatieVeldcomponent",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^B\\d{1,4}$",
+      "aasOpbouw": "B[Brandmeldcentralennr]",
+      "aasVoorbeeld": "B1063",
+      "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
+      "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "ExterneEnergievoorziening-BrandmeldinstallatieVeldcomponent, B1063, T2-01-R2011",
+      "row": 35
+    },
+    {
+      "iri": "NevenIndicator",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^B\\d{1,4}$",
+      "aasOpbouw": "B[Brandmeldcentralennr]",
+      "aasVoorbeeld": "B1063",
+      "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
+      "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "NevenIndicator, B1063, T2-01-R2011",
+      "row": 36
+    },
+    {
+      "iri": "NevenpaneelBrandmeldcentrale",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^B\\d{1,4}$",
+      "aasOpbouw": "B[Brandmeldcentralennr]",
+      "aasVoorbeeld": "B1063",
+      "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
+      "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "NevenpaneelBrandmeldcentrale, B1063, T2-01-R2011",
+      "row": 37
     }
   ]
 }
