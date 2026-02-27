@@ -35,7 +35,10 @@ jobs:
       - name: Show changed files
         run: |
           git log -1 --name-status
-          
+      - name: Show git status
+        run: |
+          git status --porcelain
+          ls -la data
       - name: Commit JSON if changed
         run: |
           # If there are no changes INCLUDING untracked files, stop.
