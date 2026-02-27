@@ -47,7 +47,7 @@ def main(xlsx_path: str, out_json_path: str) -> None:
             continue
 
         rules.append({
-            "iriSuffix": iri_suffix,
+            "iri": iri_suffix,
             "objectIdRequired": object_id_required,  # keep "ja/nee" as-is (no boolean conversion)
             "aasRegex": aas_regex,
             "aasOpbouw": aas_opbouw,
