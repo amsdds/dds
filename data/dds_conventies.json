@@ -1,0 +1,247 @@
+{
+  "latestRuleVersion": "0.82",
+  "conventies": [
+    {
+      "iriSuffix": "HoofdverdeelkastLaagspanning",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^\\d{1,3}(-\\d{1,2})?\\^[A-Z]{1,4}$",
+      "aasOpbouw": "[1,2 of 3-cijfers]^HNK",
+      "aasVoorbeeld": "134^HNK",
+      "omschrijvingTemplate": "^Hoofdverdeler, [[aascode]], .*$",
+      "omschrijvingUitleg": "Hoofdverdeler, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "Hoofdverdeler, 134^HNK, EP-00-R0142",
+      "row": 2
+    },
+    {
+      "iriSuffix": "SubverdeelkastLaagspanning",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^\\d{1,3}(-\\d{1,2})?\\^[A-Z]{1,3}\\d{0,2}$",
+      "aasOpbouw": "",
+      "aasVoorbeeld": "110-03^NL14",
+      "omschrijvingTemplate": "^Subverdeler, [[aascode]], .*$",
+      "omschrijvingUitleg": "Subverdeler, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "Subverdeler, 110-03^NL14, DP-02-R2152",
+      "row": 3
+    },
+    {
+      "iriSuffix": "EindverdeelkastLaagspanning",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^\\d{1,3}(-\\d{1,2})?\\^[A-Z]{1,3}\\d{1,2}/[A-Z]?\\d{1,2}(/([A-Z]{1,2})?\\d{1,2})?$",
+      "aasOpbouw": "",
+      "aasVoorbeeld": "107^L12/4",
+      "omschrijvingTemplate": "^Eindverdeler, [[aascode]], .*$",
+      "omschrijvingUitleg": "Eindverdeler, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "Eindverdeler, 107^L12/4, T1-01-R1094",
+      "row": 4
+    },
+    {
+      "iriSuffix": "Lift",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^L\\d{3}$",
+      "aasOpbouw": "L[nummer]",
+      "aasVoorbeeld": "L046",
+      "omschrijvingTemplate": "^Liftinstallatie, [[aascode]], .*$",
+      "omschrijvingUitleg": "Liftinstallatie, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "Liftinstallatie, 046, EF-00-RL046",
+      "row": 5
+    },
+    {
+      "iriSuffix": "Roltrap",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^RT\\d{3}$",
+      "aasOpbouw": "RT[nummer]",
+      "aasVoorbeeld": "RT095",
+      "omschrijvingTemplate": "^Roltrap, [[aascode]], .*$",
+      "omschrijvingUitleg": "Roltrap, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "Roltrap 095, EF-02-RRT095",
+      "row": 6
+    },
+    {
+      "iriSuffix": "Rolpad",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^RP\\d{3}$",
+      "aasOpbouw": "RP[nummer]",
+      "aasVoorbeeld": "RP003",
+      "omschrijvingTemplate": "^Rolpad, [[aascode]], .*$",
+      "omschrijvingUitleg": "Rolpad, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "Rolpad 003, EP-01-RRP003",
+      "row": 7
+    },
+    {
+      "iriSuffix": "Hellingbaan",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^HB\\d{3}$",
+      "aasOpbouw": "HB[nummer]",
+      "aasVoorbeeld": "HB010",
+      "omschrijvingTemplate": "^Hellingbaan, [[aascode]], .*$",
+      "omschrijvingUitleg": "Hellingbaan, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "Hellingbaan 010, T3-00-RHB010",
+      "row": 8
+    },
+    {
+      "iriSuffix": "Gevellift",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^G\\d{5}$",
+      "aasOpbouw": "G[nummer]",
+      "aasVoorbeeld": "G52015",
+      "omschrijvingTemplate": "^Gevelinstallatie, [[aascode]], .*$",
+      "omschrijvingUitleg": "Gevelinstallatie, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "Gevelinstallatie, 52015, EP-03",
+      "row": 9
+    },
+    {
+      "iriSuffix": "Glasplaat",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^RT\\d{3}$",
+      "aasOpbouw": "RT[nummer van roltrap waar het glas zich in bevindt]",
+      "aasVoorbeeld": "RT004",
+      "omschrijvingTemplate": "^Glasplaat, [[aascode]], .*$",
+      "omschrijvingUitleg": "Glasplaat, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "Glasplaat RT004, EP-01-RRP004",
+      "row": 10
+    },
+    {
+      "iriSuffix": "LeidingenEnAppendagesSprinkler",
+      "objectIdRequired": "Nee",
+      "aasRegex": "^\\d{1}\\.\\d{2}\\.\\d{2}\\.\\d{2}$",
+      "aasOpbouw": "[waterbuffer].[alarmklepruimte].[sectienr].00",
+      "aasVoorbeeld": "1.00.00.00, 1.06.00.00, 1.06.02.00, 1.06.02.01",
+      "omschrijvingTemplate": "",
+      "omschrijvingUitleg": "",
+      "omschrijvingVoorbeeld": "",
+      "row": 11
+    },
+    {
+      "iriSuffix": "SprinklerAlarmklepruimte",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^\\d{1}\\.\\d{2}\\.\\d{2}\\.\\d{2}$",
+      "aasOpbouw": "[waterbuffer].[alarmklepruimte].00.00",
+      "aasVoorbeeld": "1.06.00.00",
+      "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
+      "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "AKR 1.05 Alarmklepruimte, 1.05.01.00, T1-01-R1272",
+      "row": 12
+    },
+    {
+      "iriSuffix": "SprinklerDrogeAlarmklepCompressor",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^\\d{1}\\.\\d{2}\\.\\d{2}\\.\\d{2}\\.[A-Z]{1,3}(\\.\\d{2})?$",
+      "aasOpbouw": "[waterbuffer].[alarmklepruimte].[alarmklepnr].00.COM",
+      "aasVoorbeeld": "1.06.00.00.COM",
+      "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
+      "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "AKR 1.05 Compressor, 1.05.01.00.COM, T1-01-R1272",
+      "row": 13
+    },
+    {
+      "iriSuffix": "SprinklerNatteAlarmklepOpstelling",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^\\d{1}\\.\\d{2}\\.\\d{2}$",
+      "aasOpbouw": "[waterbuffer].[alarmklepruimte].[alarmklepnr]",
+      "aasVoorbeeld": "1.06.02",
+      "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
+      "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "AKR 1.05 Natte alarmklep, 1.05.01.00.DAK, T1-01-R1272",
+      "row": 14
+    },
+    {
+      "iriSuffix": "SprinklerDrogeAlarmklepOpstelling",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^\\d{1}\\.\\d{2}\\.\\d{2}$",
+      "aasOpbouw": "[waterbuffer].[alarmklepruimte].[alarmklepnr]",
+      "aasVoorbeeld": "1.06.02",
+      "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
+      "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "AKR 1.05 Droge alarmklep, 1.05.01.00.AK, T1-01-R1272",
+      "row": 15
+    },
+    {
+      "iriSuffix": "SprinklerDrogeAlarmklepOpstellingOnderdelen",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^\\d{1}\\.\\d{2}\\.\\d{2}\\.00\\.[A-Z]{1,3}(\\.\\d{2})?$",
+      "aasOpbouw": "[waterbuffer].[alarmklepruimte].[alarmklepnr].00.[Afkorting component]",
+      "aasVoorbeeld": "1.06.02.00.DAK",
+      "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
+      "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "AKR 1.05 Omloopafsluiter, 1.05.01.00.XVC, T1-01-R1272",
+      "row": 16
+    },
+    {
+      "iriSuffix": "SprinklerNatteAlarmklepOpstellingOnderdelen",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^\\d{1}\\.\\d{2}\\.\\d{2}\\.00\\.[A-Z]{1,3}(\\.\\d{2})?$",
+      "aasOpbouw": "[waterbuffer].[alarmklepruimte].[alarmklepnr].00.[Afkorting component]",
+      "aasVoorbeeld": "1.06.02.00.AK, 1.06.02.00.XVA",
+      "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
+      "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "AKR 1.05 Systeemafsluiter, 1.05.01.00.XVA, T1-01-R1272",
+      "row": 17
+    },
+    {
+      "iriSuffix": "SprinklerPreactionSectie",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^\\d{1}\\.\\d{2}\\.\\d{2}\\.\\d{2}$",
+      "aasOpbouw": "[waterbuffer].[alarmklepruimte].[alarmklepnr].[sectienr]",
+      "aasVoorbeeld": "1.06.02.01",
+      "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
+      "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "AKR 1.05 Preaction sectie, 1.05.01.00, T1-01-R1272",
+      "row": 18
+    },
+    {
+      "iriSuffix": "SprinklerSectie",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^\\d{1}\\.\\d{2}\\.\\d{2}\\.\\d{2}$",
+      "aasOpbouw": "[waterbuffer].[alarmklepruimte].[alarmklepnr].[sectienr]",
+      "aasVoorbeeld": "1.06.02.00, 1.06.02.01",
+      "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
+      "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "AKR 1.05 Sprinklersectie, 1.05.01.00, T1-01-R1272",
+      "row": 19
+    },
+    {
+      "iriSuffix": "SprinklerVeldcomponent",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^\\d{1}\\.\\d{2}\\.\\d{2}\\.\\d{2}(\\.[A-Z]{1,3})?(\\.\\d{2})?$",
+      "aasOpbouw": "[waterbuffer].[alarmklepruimte].[alarmklepnr].[sectienr].[Afkorting component]",
+      "aasVoorbeeld": "1.00.00.00.XVP, 1.00.00.00.XVS, 1.06.00.00.XVV, 1.00.00.00.XVZ, 1.00.00.00.NA, 1.06.00.00.XVT, 1.06.00.00.XVK, 1.06.00.00.PA, 1.06.00.00.TA, 1.06.00.00.XA, 1.06.02.00.FS, 1.06.02.00.ITC, 1.06.02.01.FS, 1.06.02.01.ITC",
+      "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
+      "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "AKR 1.05 Afsluiter, 1.05.01.00.XVV, T1-01-R1272",
+      "row": 20
+    },
+    {
+      "iriSuffix": "SprinklerVeldcomponentPreactionklep",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^\\d{1}\\.\\d{2}\\.\\d{2}\\.\\d{2}\\.PAS(\\.\\d{2})?$",
+      "aasOpbouw": "[waterbuffer].[alarmklepruimte].[alarmklepnr].[sectienr].PAS",
+      "aasVoorbeeld": "1.06.02.01.PAS",
+      "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
+      "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "AKR 1.05 Preactionklep, 1.05.01.00.PAS, T1-01-R1272",
+      "row": 21
+    },
+    {
+      "iriSuffix": "SprinklerVeldcomponentSectieafsluiter",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^\\d{1}\\.\\d{2}\\.\\d{2}\\.\\d{2}\\.XV(\\.\\d{2})?$",
+      "aasOpbouw": "[waterbuffer].[alarmklepruimte].[alarmklepnr].[sectienr].XV",
+      "aasVoorbeeld": "1.06.02.01.XV",
+      "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
+      "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "AKR 1.05 Sectieafsluiter, 1.05.01.00.XV, T1-01-R1272",
+      "row": 22
+    },
+    {
+      "iriSuffix": "SprinklerVeldcomponentSprinklerkop",
+      "objectIdRequired": "Ja",
+      "aasRegex": "^\\d{1}\\.\\d{2}\\.\\d{2}\\.\\d{2}$",
+      "aasOpbouw": "[waterbuffer].[alarmklepruimte].[alarmklepnr].[sectienr]",
+      "aasVoorbeeld": "1.06.02.00, 1.06.02.01",
+      "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
+      "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
+      "omschrijvingVoorbeeld": "AKR 1.05 Sprinklerkop, 1.05.01.00.XVC, T1-01-R1272",
+      "row": 23
+    }
+  ]
+}
