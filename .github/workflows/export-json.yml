@@ -3,9 +3,10 @@ name: Export Excel to JSON
 on:
   push:
     paths:
-      - "data/AMS_DDS_Conventies.xlsx"
-      - "tools/export_excel_to_json.py"
-      - ".github/workflows/export-json.yml"
+      - "data/**/*.xlsx"
+  pull_request:
+    paths:
+      - "data/**/*.xlsx"
   workflow_dispatch: {}
 
 permissions:
@@ -31,7 +32,10 @@ jobs:
       - name: Export JSON
         run: |
           python tools/export_excel_to_json.py data/AMS_DDS_Conventies.xlsx data/dds_conventies.json
-
+      - name: Show changed files
+        run: |
+          git log -1 --name-status
+          
       - name: Commit JSON if changed
         run: |
           if git diff --quiet; then
