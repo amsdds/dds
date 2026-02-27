@@ -97,7 +97,7 @@
       "aasVoorbeeld": "RT004",
       "omschrijvingTemplate": "^Glasplaat, [[aascode]], .*$",
       "omschrijvingUitleg": "Glasplaat, [AasCode], [Ruimtenummer]",
-      "omschrijvingVoorbeeld": "Glasplaat RT004, EP-01-RRP004",
+      "omschrijvingVoorbeeld": "Glasplaat, RT004, EP-01-RRP004",
       "row": 10
     },
     {
