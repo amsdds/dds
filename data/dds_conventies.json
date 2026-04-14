@@ -400,8 +400,8 @@
     {
       "iri": "Brandblusser",
       "objectIdRequired": "Ja",
-      "aasRegex": "^.+/[A-Za-z]+/\\d+$",
-      "aasOpbouw": "[bouwdeel en verdieping]/[Afkorting asset]/[Volgnummer]",
+      "aasRegex": "^.+/bb/\\d+$",
+      "aasOpbouw": "[bouwdeel en verdieping]/bb/[Volgnummer]",
       "aasVoorbeeld": "ter3/bb/129",
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
@@ -422,8 +422,8 @@
     {
       "iri": "Brandslanghaspel",
       "objectIdRequired": "Ja",
-      "aasRegex": "^BSH\\d+$",
-      "aasOpbouw": "BSH[Volgnummer]",
+      "aasRegex": "^.+/bsh/\\d+$",
+      "aasOpbouw": "[bouwdeel en verdieping]/bsh/[Volgnummer]",
       "aasVoorbeeld": "",
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
