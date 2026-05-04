@@ -10,6 +10,7 @@
       "omschrijvingTemplate": "^Hoofdverdeler, [[aascode]], .*$",
       "omschrijvingUitleg": "Hoofdverdeler, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "Hoofdverdeler, 134^HNK, EP-00-R0142",
+      "locatieToekenning": "Ruimte",
       "row": 2
     },
     {
@@ -21,6 +22,7 @@
       "omschrijvingTemplate": "^Subverdeler, [[aascode]], .*$",
       "omschrijvingUitleg": "Subverdeler, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "Subverdeler, 110-03^NL14, DP-02-R2152",
+      "locatieToekenning": "Ruimte",
       "row": 3
     },
     {
@@ -32,6 +34,7 @@
       "omschrijvingTemplate": "^Eindverdeler, [[aascode]], .*$",
       "omschrijvingUitleg": "Eindverdeler, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "Eindverdeler, 107^L12/4, T1-01-R1094",
+      "locatieToekenning": "Ruimte",
       "row": 4
     },
     {
@@ -43,6 +46,7 @@
       "omschrijvingTemplate": "^Liftinstallatie, [[aascode]], .*$",
       "omschrijvingUitleg": "Liftinstallatie, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "Liftinstallatie, 046, EF-00-RL046",
+      "locatieToekenning": "Ruimte",
       "row": 5
     },
     {
@@ -54,6 +58,7 @@
       "omschrijvingTemplate": "^Roltrap, [[aascode]], .*$",
       "omschrijvingUitleg": "Roltrap, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "Roltrap 095, EF-02-RRT095",
+      "locatieToekenning": "Ruimte",
       "row": 6
     },
     {
@@ -65,6 +70,7 @@
       "omschrijvingTemplate": "^Rolpad, [[aascode]], .*$",
       "omschrijvingUitleg": "Rolpad, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "Rolpad 003, EP-01-RRP003",
+      "locatieToekenning": "Ruimte",
       "row": 7
     },
     {
@@ -76,6 +82,7 @@
       "omschrijvingTemplate": "^Hellingbaan, [[aascode]], .*$",
       "omschrijvingUitleg": "Hellingbaan, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "Hellingbaan 010, T3-00-RHB010",
+      "locatieToekenning": "Ruimte",
       "row": 8
     },
     {
@@ -87,6 +94,7 @@
       "omschrijvingTemplate": "^Gevelinstallatie, [[aascode]], .*$",
       "omschrijvingUitleg": "Gevelinstallatie, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "Gevelinstallatie, 52015, EP-03",
+      "locatieToekenning": "Ruimte",
       "row": 9
     },
     {
@@ -98,6 +106,7 @@
       "omschrijvingTemplate": "^Glasplaat, [[aascode]], .*$",
       "omschrijvingUitleg": "Glasplaat, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "Glasplaat, RT004, EP-01-RRP004",
+      "locatieToekenning": "Ruimte",
       "row": 10
     },
     {
@@ -109,6 +118,7 @@
       "omschrijvingTemplate": "",
       "omschrijvingUitleg": "",
       "omschrijvingVoorbeeld": "",
+      "locatieToekenning": "Ruimte",
       "row": 11
     },
     {
@@ -120,6 +130,7 @@
       "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Alarmklepruimte, 1.05.01.00, T1-01-R1272",
+      "locatieToekenning": "Ruimte",
       "row": 12
     },
     {
@@ -131,6 +142,7 @@
       "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Compressor, 1.05.01.00.COM, T1-01-R1272",
+      "locatieToekenning": "Ruimte",
       "row": 13
     },
     {
@@ -142,6 +154,7 @@
       "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Natte alarmklep, 1.05.01.00.DAK, T1-01-R1272",
+      "locatieToekenning": "Ruimte",
       "row": 14
     },
     {
@@ -153,6 +166,7 @@
       "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Droge alarmklep, 1.05.01.00.AK, T1-01-R1272",
+      "locatieToekenning": "Ruimte",
       "row": 15
     },
     {
@@ -164,6 +178,7 @@
       "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Omloopafsluiter, 1.05.01.00.XVC, T1-01-R1272",
+      "locatieToekenning": "Ruimte",
       "row": 16
     },
     {
@@ -175,6 +190,7 @@
       "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Systeemafsluiter, 1.05.01.00.XVA, T1-01-R1272",
+      "locatieToekenning": "Ruimte",
       "row": 17
     },
     {
@@ -186,6 +202,7 @@
       "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Preaction sectie, 1.05.01.00, T1-01-R1272",
+      "locatieToekenning": "Verdieping",
       "row": 18
     },
     {
@@ -197,6 +214,7 @@
       "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Sprinklersectie, 1.05.01.00, T1-01-R1272",
+      "locatieToekenning": "Verdieping",
       "row": 19
     },
     {
@@ -208,6 +226,7 @@
       "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Afsluiter, 1.05.01.00.XVV, T1-01-R1272",
+      "locatieToekenning": "Ruimte",
       "row": 20
     },
     {
@@ -219,6 +238,7 @@
       "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Preactionklep, 1.05.01.00.PAS, T1-01-R1272",
+      "locatieToekenning": "Ruimte",
       "row": 21
     },
     {
@@ -230,6 +250,7 @@
       "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Sectieafsluiter, 1.05.01.00.XV, T1-01-R1272",
+      "locatieToekenning": "Ruimte",
       "row": 22
     },
     {
@@ -241,6 +262,7 @@
       "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Sprinklerkop, 1.05.01.00.XVC, T1-01-R1272",
+      "locatieToekenning": "Ruimte",
       "row": 23
     },
     {
@@ -252,6 +274,7 @@
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "Brandmeldinstallatie, B1063, T2-01-R2011",
+      "locatieToekenning": "Ruimte",
       "row": 24
     },
     {
@@ -263,6 +286,7 @@
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AspiratiemelderASD, B1063, T2-01-R2011",
+      "locatieToekenning": "Ruimte",
       "row": 25
     },
     {
@@ -274,6 +298,7 @@
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "VideoSmokeDetectie, B1063, T2-01-R2011",
+      "locatieToekenning": "Ruimte",
       "row": 26
     },
     {
@@ -285,6 +310,7 @@
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "LineaireOptischeDetectie, B1063, T2-01-R2011",
+      "locatieToekenning": "Ruimte",
       "row": 27
     },
     {
@@ -296,6 +322,7 @@
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "LineaireThermischeDetectie, B1063, T2-01-R2011",
+      "locatieToekenning": "Ruimte",
       "row": 28
     },
     {
@@ -307,6 +334,7 @@
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "Vlammenmelder, B1063, T2-01-R2011",
+      "locatieToekenning": "Ruimte",
       "row": 29
     },
     {
@@ -318,6 +346,7 @@
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "Handbrandmelder, B1063, T2-01-R2011",
+      "locatieToekenning": "Ruimte",
       "row": 30
     },
     {
@@ -329,6 +358,7 @@
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AkoestischeEnOptischeSignaalgevers, B1063, T2-01-R2011",
+      "locatieToekenning": "Ruimte",
       "row": 31
     },
     {
@@ -340,6 +370,7 @@
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "ThermischeMelder, B1063, T2-01-R2011",
+      "locatieToekenning": "Ruimte",
       "row": 32
     },
     {
@@ -351,6 +382,7 @@
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "MultisensorPuntmelder, B1063, T2-01-R2011",
+      "locatieToekenning": "Ruimte",
       "row": 33
     },
     {
@@ -362,6 +394,7 @@
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "IOModule, B1063, T2-01-R2011",
+      "locatieToekenning": "Ruimte",
       "row": 34
     },
     {
@@ -373,6 +406,7 @@
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "ExterneEnergievoorziening-BrandmeldinstallatieVeldcomponent, B1063, T2-01-R2011",
+      "locatieToekenning": "Ruimte",
       "row": 35
     },
     {
@@ -384,6 +418,7 @@
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "NevenIndicator, B1063, T2-01-R2011",
+      "locatieToekenning": "Ruimte",
       "row": 36
     },
     {
@@ -395,6 +430,7 @@
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "NevenpaneelBrandmeldcentrale, B1063, T2-01-R2011",
+      "locatieToekenning": "Ruimte",
       "row": 37
     },
     {
@@ -406,6 +442,7 @@
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "",
+      "locatieToekenning": "Ruimte",
       "row": 38
     },
     {
@@ -417,6 +454,7 @@
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "",
+      "locatieToekenning": "Ruimte",
       "row": 39
     },
     {
@@ -428,6 +466,7 @@
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "",
+      "locatieToekenning": "Ruimte",
       "row": 40
     },
     {
@@ -439,6 +478,7 @@
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "",
+      "locatieToekenning": "Ruimte",
       "row": 41
     },
     {
@@ -450,6 +490,7 @@
       "omschrijvingTemplate": "^[A-Za-z0-9 -]+,[[aascode]],.*",
       "omschrijvingUitleg": "[IRI], [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "",
+      "locatieToekenning": "Ruimte",
       "row": 42
     }
   ]
