@@ -40,10 +40,11 @@ def main(xlsx_path: str, out_json_path: str) -> None:
         oms_tpl = norm(ws.cell(row=r, column=7).value)         # col 7  (Java cell 6)
         oms_uitleg = norm(ws.cell(row=r, column=8).value)      # col 8  (Java cell 7)
         oms_voorbeeld = norm(ws.cell(row=r, column=9).value)   # col 9  (Java cell 8)
+        locatie_toekenning = norm(ws.cell(row=r, column=10).value)   # col 9  (Java cell 8)
 
         # 1-op-1 export: we keep row even if some values are empty;
         # you can choose to skip fully empty rows:
-        if all(not x for x in [iri_suffix, object_id_required, aas_regex, aas_opbouw, aas_voorbeeld, oms_tpl, oms_uitleg, oms_voorbeeld]):
+        if all(not x for x in [iri_suffix, object_id_required, aas_regex, aas_opbouw, aas_voorbeeld, oms_tpl, oms_uitleg, oms_voorbeeld, locatie_toekenning]):
             continue
 
         rules.append({
@@ -55,6 +56,7 @@ def main(xlsx_path: str, out_json_path: str) -> None:
             "omschrijvingTemplate": oms_tpl,
             "omschrijvingUitleg": oms_uitleg,
             "omschrijvingVoorbeeld": oms_voorbeeld,
+            "locatieToekenning": locatie_toekenning,
             "row": r  # helpful for debugging; remove if you don't want it
         })
 
