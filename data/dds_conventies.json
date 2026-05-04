@@ -178,7 +178,7 @@
       "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Omloopafsluiter, 1.05.01.00.XVC, T1-01-R1272",
-      "locatieToekenning": "Verdieping",
+      "locatieToekenning": "Ruimte",
       "row": 16
     },
     {
@@ -190,7 +190,7 @@
       "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Systeemafsluiter, 1.05.01.00.XVA, T1-01-R1272",
-      "locatieToekenning": "Verdieping",
+      "locatieToekenning": "Ruimte",
       "row": 17
     },
     {
@@ -202,7 +202,7 @@
       "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Preaction sectie, 1.05.01.00, T1-01-R1272",
-      "locatieToekenning": "Verdieping",
+      "locatieToekenning": "Ruimte",
       "row": 18
     },
     {
@@ -214,7 +214,7 @@
       "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Sprinklersectie, 1.05.01.00, T1-01-R1272",
-      "locatieToekenning": "Verdieping",
+      "locatieToekenning": "Ruimte",
       "row": 19
     },
     {
@@ -262,7 +262,7 @@
       "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Sprinklerkop, 1.05.01.00.XVC, T1-01-R1272",
-      "locatieToekenning": "Ruimte",
+      "locatieToekenning": "Verdieping",
       "row": 23
     },
     {
