@@ -1,5 +1,5 @@
 {
-  "latestRuleVersion": "0.82",
+  "latestRuleVersion": "0.9",
   "conventies": [
     {
       "iri": "HoofdverdeelkastLaagspanning",
@@ -130,7 +130,7 @@
       "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Alarmklepruimte, 1.05.01.00, T1-01-R1272",
-      "locatieToekenning": "Ruimte",
+      "locatieToekenning": "Verdieping",
       "row": 12
     },
     {
@@ -262,7 +262,7 @@
       "omschrijvingTemplate": "^AKR \\d{1}\\.\\d{2} [A-Za-z0-9 ]+, [[aascode]], .*$",
       "omschrijvingUitleg": "AKR [AK-nummer] Omschrijving, [AasCode], [Ruimtenummer]",
       "omschrijvingVoorbeeld": "AKR 1.05 Sprinklerkop, 1.05.01.00.XVC, T1-01-R1272",
-      "locatieToekenning": "Verdieping",
+      "locatieToekenning": "Ruimte",
       "row": 23
     },
     {
